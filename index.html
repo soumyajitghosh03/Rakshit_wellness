@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakshit Wellness</title>
+    <link rel="icon" href="static/img/icon.png">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Galada&family=Pacifico&family=Playwrite+AU+SA:wght@100..400&family=Playwrite+BE+VLG:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav1">
+            <img src="static/img/edited.png" height="80%" width="80%">
+        </div>
+        <div class="nav2">
+            <div class="search-box">
+                <div class="deliver">
+                    <h3 style="font-size: 20px; color: rgba(0, 0, 0, 0.404);">Deliver to</h3>
+                    <h2 style="color: #28B463;">722102</h2>
+                </div>
+                <div class="s">
+                    <input class="input" type="text" placeholder="Search for medicine & wellness products...">
+                </div>
+                <div class="search-logo">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </div>
+        <div class="nav3">
+
+        </div>
+        <div class="nav4">
+            <div class="cart">
+                <img src="static/img/cart-shopping-solid-full.svg" height="50%" width="50%">
+                <h2 style="color: aliceblue;">Cart</h2>
+            </div>
+            <div class="sign">
+                <img src="static/img/user-solid-full.svg"  height="50%" width="40%">
+                <a href="#" style="color: aliceblue;" class="sign" onclick="openPopup()">Sign in / Sign up</a>
+
+                <div class="popup-form" id="popupForm">
+                <div class="form-content">
+                    <span class="close" onclick="closePopup()">&times;</span>
+                    <h2>Registration</h2>
+                    <input type="email" placeholder="Email ID" required>
+                    <input type="tel" placeholder="Mobile Number" required>
+                    <button class="otp-btn">Send OTP</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="static/img/xyz.jpg" width="100%">
+    <div class="banner">
+        <div class="carousel-container">
+            <div class="slider">
+            <img src="static/img/IMG_20250726_014453.jpg" alt="Image 1">
+            <img src="static/img/IMG_20250726_014519.jpg" alt="Image 2">
+            <img src="static/img/IMG_20250726_014534.jpg" alt="Image 3">
+            <img src="static/img/1750919076_Web_Home-Banner_(3).jpg" alt="Image 4">
+            <img src="static/img/IMG_20250726_014453.jpg" alt="Image 1">
+            <img src="static/img/IMG_20250726_014519.jpg" alt="Image 2">
+            <img src="static/img/IMG_20250726_014534.jpg" alt="Image 3">
+            <img src="static/img/1750919076_Web_Home-Banner_(3).jpg" alt="Image 4">
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="ban2">
+        <div class="box">
+            <div class="box-img">
+                <img src="static/img/labtest_ff.webp" height="100%" width="100%">
+            </div>
+            <div class="box-line">
+                <h4 style="color: rgba(0, 0, 0, 0.767);">Lab Tests</h4>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-img">
+                <img src="static/img/medicine_ff.webp" height="100%" width="100%">
+            </div>
+            <div class="box-line">
+                <h4 style="color: rgba(0, 0, 0, 0.767);">Medicine</h4>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-img">
+                <img src="static/img/icon_doc_consult_tile.webp" height="100%" width="100%">
+            </div>
+            <div class="box-line">
+                <h4 style="color: rgba(0, 0, 0, 0.767);">Doctor Consult</h4>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-img">
+                <img src="static/img/healthcare_ff.webp" height="100%" width="100%">
+            </div>
+            <div class="box-line">
+                <h4 style="color: rgba(0, 0, 0, 0.767);">Healthcare</h4>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-img">
+                <img src="static/img/health_blogs_ff.webp" height="100%" width="100%">
+            </div>
+            <div class="box-line">
+                <h4 style="color: rgba(0, 0, 0, 0.767);">Health Blogs</h4>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-img">
+                <img src="static/img/plus_ff.webp" height="100%" width="100%">
+            </div>
+            <div class="box-line">
+                <h4 style="color: rgba(0, 0, 0, 0.767);">Plus</h4>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-img">
+                <img src="static/img/offers_ff.webp" height="100%" width="100%">
+            </div>
+            <div class="box-line">
+                <h4 style="color: rgba(0, 0, 0, 0.767);">Offers</h4>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-img">
+                <img src="static/img/value_store.png" height="100%" width="100%">
+            </div>
+            <div class="box-line">
+                <h4 style="color: rgba(0, 0, 0, 0.767);">Value Store</h4>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <h1 style="color: #2E86AB;padding-left: 30px;">Lab Tests by <b style="color: #28B463;">Health Concern</b></h1>
+    <br>
+    <br>
+    <div class="ban3">
+        <div class="box2">
+            <img class="shad" src="static/img/check.png" width="85%" height="100%">
+        </div>
+        <div class="box2">
+            <img class="shad" src="static/img/Vitamins.png" width="85%" height="100%">
+        </div>
+        <div class="box2">
+          <img class="shad" src="static/img/Diabetes.png" width="85%" height="100%">  
+        </div>
+        <div class="box2">
+            <img class="shad" src="static/img/Fever.png" width="85%" height="100%">
+        </div>
+        <div class="box2">
+            <img class="shad" src="static/img/hair.png" width="85%" height="100%">
+        </div>
+        <div class="box2">
+            <img class="shad" src="static/img/Thyroid.png" width="85%" height="100%">
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="pres-div">
+        <div class="Prescription">
+            <div class="pres1">
+                <div class="pres11">
+                    <img src="static/img/pres.svg" height="70%" width="70%">
+                </div>
+                <div class="pres12">
+                    <h2 style="padding-left: 0px; padding-top: 32px; color: rgba(0, 0, 0, 0.76);">Order with Prescription</h2>
+                    <br>
+                    <h4 style="color: rgba(0, 0, 0, 0.76);">Upload prescription and we will deliver your medicines</h4>
+                    <br>
+                    <button class="upload" onclick="openNewPage()">Upload</button>
+                </div>
+            </div>
+            <div class="pres2">
+                <h3 style="padding-left: 20px;padding-top: 20px; color: rgba(0, 0, 0, 0.76);">How does this work?</h3>
+                <br>
+                <br>
+                <h4 style="padding-left: 20px; color: rgba(0, 0, 0, 0.76);">1️⃣ Upload a photo of your prescription</h4>
+                <br>
+                <h4 style="padding-left: 20px; color: rgba(0, 0, 0, 0.76);">2️⃣ Add delivery address and place the order</h4>
+            </div>
+            <div class="pres3">
+                <h4 style="padding-left: 20px;padding-top: 80px; color: rgba(0, 0, 0, 0.76);">3️⃣ We will call you to confirm the medicines</h4>
+                <br>
+                <h4 style="padding-left: 20px; color: rgba(0, 0, 0, 0.76);">4️⃣ Now, sit back! your medicines will get delivered at your doorstep</h4>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="banner5">
+        <div class="card5">
+            <div class="card52">
+                <img src="static/img/Wellnessnew.svg" height="80%" width="80%">
+            </div>
+            <div class="card53">
+                <a href="order.html" style="padding-left: 20px;"><h2>Order Medicine</h2></a>
+                <h4 style="padding-left: 5px;">save upto 20%</h4>
+            </div>
+            <div class="card54">
+                <a href="order.html"><i class="fa-solid fa-right-from-bracket" style="color: #000000;"></i></i></a>
+            </div>
+        </div>
+        <div class="card5">
+            <div class="card52">
+                <img src="static/img/Beautynew.svg" height="80%" width="80%">
+            </div>
+            <div class="card53">
+                <a href="beauty.html" style="padding-left: 20px;"><h2>Beauty</h2></a>
+                <h4 style="padding-left: 5px;">save upto 40%</h4>
+            </div>
+            <div class="card54">
+                <a href="beauty.html"><i class="fa-solid fa-right-from-bracket" style="color: #000000;"></i></i></a>
+            </div>
+        </div>
+        <div class="card5">
+            <div class="card52">
+                <img src="static/img/ordermedicinnew.svg" height="80%" width="80%">
+            </div>
+            <div class="card53">
+                <a href="wellness.html" style="padding-left: 20px;"><h2>Wellness</h2></a>
+                <h4 style="padding-left: 5px;">save upto 60%</h4>
+            </div>
+            <div class="card54">
+                <a href="wellness.html"><i class="fa-solid fa-right-from-bracket" style="color: #000000;"></i></i></a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <h1 style="color: #2E86AB;padding-left: 30px;">Payment Partner Offers <b style="color: #28B463;">View All</b></h1>
+    <br>
+    <br>
+    <div class="payment">
+        <div class="card5x">
+            <div class="card52">
+                <img src="static/img/paytm.png" height="80%" width="80%">
+            </div>
+            <div class="card53x">
+                <h4 style="padding-left: 20px;">Get Assured Paytm Cashback Between ₹10 and ₹300!</h4>
+            </div>
+            <div class="card54">
+                <a href="paytm.html"><i class="fa-solid fa-right-from-bracket" style="color: #000000;"></i></i></a>
+            </div>
+        </div>
+        <div class="card5x">
+            <div class="card52">
+                <img src="static/img/star.png" height="80%" width="80%">
+            </div>
+            <div class="card53x">
+                <h4 style="padding-left: 20px;">Get assured Savings of up to Rs. 150* + Earn up to 16X rewards*</h4>
+            </div>
+            <div class="card54">
+                <a href="star.html"><i class="fa-solid fa-right-from-bracket" style="color: #000000;"></i></i></a>
+            </div>
+        </div>
+        <div class="card5x">
+            <div class="card52">
+                <img src="static/img/free.png" height="80%" width="80%">
+            </div>
+            <div class="card53x">
+                <h4 style="padding-left: 20px;">Get up to Rs. 35 Freecharge UPI Cashback!</h4>
+            </div>
+            <div class="card54">
+                <a href="free.html"><i class="fa-solid fa-right-from-bracket" style="color: #000000;"></i></i></a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <h1 style="color: #2E86AB;padding-left: 30px;">Shop by <b style="color: #28B463;">Category</b></h1>
+    <br>
+    <br>
+    <div class="category">
+        <div class="card6">
+            <div class="card61"><img src="static/img/vitamins_and_supplements_4-removebg-preview.png" height="98%" width="98%"></div>
+            <div class="card62"><button class="upload" onclick="openNewPagex1()">Explore</button></div>
+        </div>
+        <div class="card6">
+            <div class="card61"><img src="static/img/shampoos.png" height="98%" width="98%"></div>
+            <div class="card62"><button class="upload" onclick="openNewPagex2()">Explore</button></div>
+        </div>
+        <div class="card6">
+            <div class="card61"><img src="static/img/orthopaedics.png" height="98%" width="98%"></div>
+            <div class="card62"><button class="upload" onclick="openNewPagex3()">Explore</button></div>
+        </div>
+        <div class="card6">
+            <div class="card61"><img src="static/img/feminine_hygiene_2-removebg-preview.png" height="98%" width="98%"></div>
+            <div class="card62"><button class="upload" onclick="openNewPagex4()">Explore</button></div>
+        </div>
+        <div class="card6">
+            <div class="card61"><img src="static/img/ayurvedic.png" height="98%" width="98%"></div>
+            <div class="card62"><button class="upload" onclick="openNewPagex5()">Explore</button></div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="membership">
+        <div class="mem">
+            <div class="mem-logo">
+                <img src="static/img/mem-removebg-preview.png" height="97%" width="90%">
+            </div>
+            <div class="mem-text">
+                <h2 style="padding-top: 30px;color: #000000d3;">Rakshit Wellness First Membership</h2>
+                <br>
+                <h4 style="color: #000000a6;">Get special discounts and offers on services. Get 2% NMS Cash on all orders. Get unlimited free delivery.</h4>
+            </div>
+            <div class="start">
+                <img src="static/img/wand-magic-sparkles-solid-full.svg" width="20%" height="20%">
+                <h3 style="color: crimson;">Starting at ₹49</h3>
+            </div>
+            <div class="plans">
+                <div class="card62"><button class="upload2" onclick="openNewPagex6()">Explore Plans</button></div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <h1 style="color: #2E86AB;padding-left: 30px;">Featured  <b style="color: #28B463;">Brands</b></h1>
+    <br>
+    <br>
+    <div class="brand">
+        <img src="static/img/brand.jpg" style="height: 100%; width: 97%;">
+    </div>
+    <br>
+    <section class="product-section">
+        <h1 class="title">Trending Today</h1>
+        <div class="product-container">
+        <div class="card">
+            <img src="static/img/m1.webp" alt="Product 1" />
+            <h2>Shelcal 500mg Strip Of 15 Tablets</h2>
+            <p>120.54/-</p>
+        </div>
+        <div class="card">
+            <img src="static/img/m3.webp" alt="Product 2" />
+            <h2>Liveasy Wellness Calcium Magnesium Vitamin D3</h2>
+            <p>140/-</p>
+        </div>
+        <div class="card">
+            <img src="static/img/m4.webp" alt="Product 3" />
+            <h2>Evion 400mg Strip Of 20 Capsule</h2>
+            <p>80.26/-</p>
+        </div>
+        <div class="card">
+            <img src="static/img/m5.webp" alt="Product 4" />
+            <h2>Revital Men Complete Multivitamin</h2>
+            <p>32.00/-</p>
+        </div>
+        <div class="card">
+            <img src="static/img/m7.webp" alt="Product 5" />
+            <h2>Dr. Morepen Gluco One Blood Glucose Test Strip</h2>
+            <p>509/-</p>
+        </div>
+        <div class="card">
+            <img src="static/img/m8.webp" alt="Product 6" />
+            <h2>Durex Extra Time Packet Of 10 Condoms</h2>
+            <p>209.45/-</p>
+        </div>
+        <div class="card">
+            <img src="static/img/m10.webp" alt="Product 3" />
+            <h2>New Saridon Strip Of 10 Tablets</h2>
+            <p>44.2/-</p>
+        </div>
+        <div class="card">
+            <img src="static/img/m11.webp" alt="Product 4" />
+            <h2>Everherb (By Pharmeasy) Pain Relief Oil</h2>
+            <p>120/-</p>
+        </div>
+        <div class="card">
+            <img src="static/img/m13.webp" alt="Product 5" />
+            <h2>Softovac Sf Constipation Powder Bottle Of 250 G</h2>
+            <p>359.28/-</p>
+        </div>
+        <div class="card">
+            <img src="static/img/m14.webp" alt="Product 6" />
+            <h2>Pharmeasy Knee Cap (Pair)</h2>
+            <p>209/-</p>
+        </div>
+        </div>
+        <button class="see-more">See More</button>
+    </section>
+    <br>
+    <h1 style="color: #2E86AB;padding-left: 30px;">Why Choose <b style="color: #28B463;">Us?</b></h1>
+    <br>
+    <div class="choose">
+        <div class="why">
+            <div class="cardc1">
+                <div class="cardimg">
+                    <img src="static/img/c1.svg" width="97%" height="97%">
+                </div>
+                <div class="cardtxt">
+                    <h2 style="padding-top: 40px;">6 Million+</h2>
+                    <h4 style="color: #000000b2;">Registered users as of Dec 31, 2024</h4>
+                </div>
+            </div>
+            <div class="cardc1">
+                <div class="cardimg">
+                    <img src="static/img/c2.svg" width="97%" height="97%">
+                </div>
+                <div class="cardtxt">
+                    <h2 style="padding-top: 40px;">9 Million+</h2>
+                    <h4 style="color: #000000b2;">Orders on Rakshit Wellness till date</h4>
+                </div>
+            </div>
+            <div class="cardc1">
+                <div class="cardimg">
+                    <img src="static/img/c3.svg" width="97%" height="97%">
+                </div>
+                <div class="cardtxt">
+                    <h2 style="padding-top: 40px;">60000+</h2>
+                    <h4 style="color: #000000b2;">Unique items sold last 6 months</h4>
+                </div>
+            </div>
+            <div class="cardc1">
+                <div class="cardimg">
+                    <img src="static/img/c4.svg" width="97%" height="97%">
+                </div>
+                <div class="cardtxt">
+                    <h2 style="padding-top: 40px;">19000+</h2>
+                    <h4 style="color: #000000b2;">Pin codes serviced last 3 months</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="phone">
+        <img src="static/img/phone.png" width="100%" height="100%">
+    </div>
+    
+    <section class="review-section">
+        <div class="container">
+            <h2 class="review-heading">What Our Users Say</h2>
+            <div class="review-cards">
+            <div class="review-card">
+                <p class="review-text">"Rakshit Wellness changed my lifestyle. The personalized health tips are spot on!"</p>
+                <p class="review-author">– Ritwika Deb</p>
+            </div>
+            <div class="review-card">
+                <p class="review-text">"The app interface is so smooth and the daily health tracker is very helpful."</p>
+                <p class="review-author">– Shovan Pramanik</p>
+            </div>
+            <div class="review-card">
+                <p class="review-text">"Loved the wellness plans! Simple, effective, and science-backed."</p>
+                <p class="review-author">– Urmi Bandyopadhyay</p>
+            </div>
+            <div class="review-card">
+                <p class="review-text">"Customer support is super responsive. I'm really impressed!"</p>
+                <p class="review-author">– Vishmajit Chanda</p>
+            </div>
+            <div class="review-card">
+                <p class="review-text">"After using Rakshit Wellness, I feel more energetic and aware of my habits."</p>
+                <p class="review-author">– Smriti Gorai</p>
+            </div>
+            <div class="review-card">
+                <p class="review-text">"Clean UI, reliable health data, and great daily reminders!"</p>
+                <p class="review-author">– Aloke Roy</p>
+            </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="top">
+        <a href="index.html" style="text-decoration: none;color: aliceblue;">Back to Top</a>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+            <h2>Rakshit Wellness</h2>
+            <p>Your Health, Our Priority</p>
+            </div>
+
+            <div class="footer-links">
+            <div>
+                <h3>Company</h3>
+                <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Support</h3>
+                <ul>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Follow Us</h3>
+                <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Rakshit Wellness. All rights reserved. Made by Soumyajit Ghosh</p>
+        </div>
+    </footer>
+
+
+    <script>
+        function openPopup() {
+            document.getElementById("popupForm").style.display = "block";
+        }
+
+        function closePopup() {
+            document.getElementById("popupForm").style.display = "none";
+        }
+
+        function openNewPage() {
+            window.open("prescription.html", "_self");
+        }
+
+        function openNewPagex1() {
+            window.open("vitamins.html", "_self");
+        }
+
+        function openNewPagex2() {
+            window.open("shampoo.html", "_self");
+        }
+
+        function openNewPagex3() {
+            window.open("orthopaedics.html", "_self");
+        }
+
+        function openNewPagex4() {
+            window.open("female.html", "_self");
+        }
+
+        function openNewPagex5() {
+            window.open("ayurvedic.html", "_self");
+        }
+
+        function openNewPagex6() {
+            window.open("membership.html", "_self");
+        }
+    </script>
+
+</body>
+</html>

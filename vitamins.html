@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakshit Wellness</title>
+    <link rel="icon" href="static/img/icon.png">
+    <link rel="stylesheet" href="static/css/vitamin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Galada&family=Pacifico&family=Playwrite+AU+SA:wght@100..400&family=Playwrite+BE+VLG:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav1">
+            <img src="static/img/edited.png" height="80%" width="80%">
+        </div>
+        <div class="nav2">
+            <div class="search-box">
+                <div class="deliver">
+                    <h3 style="font-size: 20px; color: rgba(0, 0, 0, 0.404);">Deliver to</h3>
+                    <h2 style="color: #28B463;">722102</h2>
+                </div>
+                <div class="s">
+                    <input class="input" type="text" placeholder="Search for medicine & wellness products...">
+                </div>
+                <div class="search-logo">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </div>
+        <div class="nav3">
+
+        </div>
+        <div class="nav4">
+            <div class="cart">
+                <img src="static/img/cart-shopping-solid-full.svg" height="50%" width="50%">
+                <h2 style="color: aliceblue;">Cart</h2>
+            </div>
+            <div class="sign">
+                <img src="static/img/user-solid-full.svg"  height="50%" width="40%">
+                <a href="#" style="color: aliceblue;" class="sign" onclick="openPopup()">Sign in / Sign up</a>
+
+                <div class="popup-form" id="popupForm">
+                <div class="form-content">
+                    <span class="close" onclick="closePopup()">&times;</span>
+                    <h2>Registration</h2>
+                    <input type="email" placeholder="Email ID" required>
+                    <input type="tel" placeholder="Mobile Number" required>
+                    <button class="otp-btn">Send OTP</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="static/img/xyz.jpg" width="100%">
+    <div class="headline">
+        <p>Covid Essentials</p>
+        <p>Diabetes</p>
+        <p>Cardiac Care</p>
+        <p>Stomach Care</p>
+        <p>Ayurvedic</p>
+        <p>Homeopathy</p>
+        <p>Fitness</p>
+        <p>Mom & Baby</p>
+        <p>Devices</p>
+        <p>Surgicals</p>
+        <p>Sexual Wellness</p>
+        <p>Treatments</p>
+        <p>Skin Care</p>
+        <p>Personal Care</p>
+    </div>
+    <br>
+    <br>
+    <div class="vita">
+        <img src="static/img3/vitamins_and_supplements_0.jpg">
+    </div>
+    <br>
+    <br>
+    <div class="product-section">
+        <h2 class="section-title">Popular Picks</h2>
+        <div class="product-row">
+
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="discount-badge">38% OFF</div>
+                <img src="static/img3/v1.jpg" alt="Product 1">
+                <h3>Inlife Magnesium Glycinate 1100 mg Veg Capsule 120'S</h3>
+                <div class="tags">
+                    <span>Fitness</span>
+                    <span>Supplements</span>
+                </div>
+                <p class="market">Mkt: Inlife Pharma Pvt Ltd</p>
+                <div class="price">
+                    <span class="current-price">₹749.38</span>
+                    <span class="old-price">₹1199.00</span>
+                </div>
+                <button>ADD TO CART</button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="discount-badge">10% OFF</div>
+                <img src="static/img3/v2.jpg" alt="Product 2">
+                <h3>Supradyn Daily Multivitamin Tablet with Minerals 15'S</h3>
+                <div class="tags">
+                    <span>Fitness</span>
+                    <span>Supplements</span>
+                </div>
+                <p class="market">Mkt: Piramal Pharma Limited</p>
+                <div class="price">
+                    <span class="current-price">₹65.66</span>
+                    <span class="old-price">₹72.95</span>
+                </div>
+                <button>ADD TO CART</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="discount-badge">29% OFF</div>
+                <img src="static/img3/v3.jpg" alt="Product 3">
+                <h3>NUTRILITE DAILY TABLET 120'S</h3>
+                <div class="tags">
+                    <span>Fitness</span>
+                    <span>Family Nutrition</span>
+                </div>
+                <p class="market">Mkt: Amway India Enterprises Pvt Ltd</p>
+                <div class="price">
+                    <span class="current-price">₹1749.44</span>
+                    <span class="old-price">₹2464.00</span>
+                </div>
+                <button>ADD TO CART</button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <div class="discount-badge">10% OFF</div>
+                <img src="static/img3/v4.jpg" alt="Product 4">
+                <h3>Centrum Men Multivitamins Tablets 30's</h3>
+                <div class="tags">
+                    <span>Fitness</span>
+                    <span>Otc Deals</span>
+                </div>
+                <p class="market">Mkt: Glaxosmithkline Asia Pvt. Ltd.</p>
+                <div class="price">
+                    <span class="current-price">₹445.50</span>
+                    <span class="old-price">₹495.00</span>
+                </div>
+                <button>ADD TO CART</button>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <div class="discount-badge">15% OFF</div>
+                <img src="static/img3/v5.jpg" alt="Product 5">
+                <h3>GNC Women's One Daily Multivitamin Tablet 60's</h3>
+                <div class="tags">
+                    <span>Fitness</span>
+                    <span>Otc Deals</span>
+                </div>
+                <p class="market">Mkt: Glaxosmithkline Asia Pvt. Ltd.</p>
+                <div class="price">
+                    <span class="current-price">₹1299.23</span>
+                    <span class="old-price">₹890.00</span>
+                </div>
+                <button>ADD TO CART</button>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <div class="product-section">
+        <div class="product-row">
+
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="discount-badge">31% OFF</div>
+                <img src="static/img3/v6.jpg" alt="Product 1">
+                <h3>DePURA 60000 IU Oral Solution 5 ml</h3>
+                <div class="tags">
+                    <span>Fitness</span>
+                    <span>Supplements</span>
+                </div>
+                <p class="market"> Mkt: Sanofi India Limited</p>
+                <div class="price">
+                    <span class="current-price">₹114.93</span>
+                    <span class="old-price">₹101.23</span>
+                </div>
+                <button>ADD TO CART</button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="discount-badge">25% OFF</div>
+                <img src="static/img3/v7.jpg" alt="Product 2">
+                <h3>Fast&Up Charge Natural Vitamin C From Amla Extract</h3>
+                <div class="tags">
+                    <span>Fitness</span>
+                    <span>Supplements</span>
+                </div>
+                <p class="market"> Mkt: Aeronutrix Sports Product Pvt. Ltd.</p>
+                <div class="price">
+                    <span class="current-price">₹425.01</span>
+                    <span class="old-price">₹403.25</span>
+                </div>
+                <button>ADD TO CART</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="discount-badge">29% OFF</div>
+                <img src="static/img3/v8.jpg" alt="Product 3">
+                <h3>Swisse Ultivite Men's Multivitamin Tablet 60's</h3>
+                <div class="tags">
+                    <span>Fitness</span>
+                    <span>Family Nutrition</span>
+                </div>
+                <p class="market">Mkt: H&H Trading India Pvt Ltd</p>
+                <div class="price">
+                    <span class="current-price">₹2349.44</span>
+                    <span class="old-price">₹1879.00</span>
+                </div>
+                <button>ADD TO CART</button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <div class="discount-badge">10% OFF</div>
+                <img src="static/img3/v9.jpg" alt="Product 4">
+                <h3>Maxirich Daily Multivitamin Capsules 10's</h3>
+                <div class="tags">
+                    <span>Fitness</span>
+                    <span>Otc Deals</span>
+                </div>
+                <p class="market">Mkt: Cipla Health Ltd.</p>
+                <div class="price">
+                    <span class="current-price">₹129.25</span>
+                    <span class="old-price">₹90.12</span>
+                </div>
+                <button>ADD TO CART</button>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <div class="discount-badge">15% OFF</div>
+                <img src="static/img3/v10.jpg" alt="Product 5">
+                <h3>NUTRILITE SALMON OMEGA 3 SOFTGEL CAPSULE 60'S</h3>
+                <div class="tags">
+                    <span>Fitness</span>
+                    <span>Otc Deals</span>
+                </div>
+                <p class="market">Mkt: Amway India Enterprises Pvt Ltd</p>
+                <div class="price">
+                    <span class="current-price">₹1780.25</span>
+                    <span class="old-price">₹1248.98</span>
+                </div>
+                <button>ADD TO CART</button>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <div class="product-section">
+        <div class="product-row">
+
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="discount-badge">31% OFF</div>
+                <img src="static/img3/v11.jpg" alt="Product 1">
+                <h3>COQ LC Tablet 10'S</h3>
+                <div class="tags">
+                    <span>Fitness</span>
+                    <span>Supplements</span>
+                </div>
+                <p class="market"> Mkt: Universal Nutriscience Private Limited</p>
+                <div class="price">
+                    <span class="current-price">₹1331.24</span>
+                    <span class="old-price">₹1064.48</span>
+                </div>
+                <button>ADD TO CART</button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="discount-badge">25% OFF</div>
+                <img src="static/img3/v12.jpg" alt="Product 2">
+                <h3>Pro360 Secret Nutritional Powder </h3>
+                <div class="tags">
+                    <span>Fitness</span>
+                    <span>Supplements</span>
+                </div>
+                <p class="market"> Mkt: GMN HEALTHCARE PRIVATE LTD</p>
+                <div class="price">
+                    <span class="current-price">₹1199.29</span>
+                    <span class="old-price">₹1019.63</span>
+                </div>
+                <button>ADD TO CART</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="discount-badge">29% OFF</div>
+                <img src="static/img3/v13.jpg" alt="Product 3">
+                <h3>Pure Nutrition Glutathione 500 mg with Vitamin C</h3>
+                <div class="tags">
+                    <span>Fitness</span>
+                    <span>Family Nutrition</span>
+                </div>
+                <p class="market">Mkt: Herbs Nutriproducts Private Limited</p>
+                <div class="price">
+                    <span class="current-price">₹1499.14</span>
+                    <span class="old-price">₹990.18</span>
+                </div>
+                <button>ADD TO CART</button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <div class="discount-badge">10% OFF</div>
+                <img src="static/img3/v14.jpg" alt="Product 4">
+                <h3>Wellman HairFollic Gluten Free Tablet 30's</h3>
+                <div class="tags">
+                    <span>Fitness</span>
+                    <span>Otc Deals</span>
+                </div>
+                <p class="market">Mkt: MEYER ORGANICS PVT LTD</p>
+                <div class="price">
+                    <span class="current-price">₹900.25</span>
+                    <span class="old-price">₹783.12</span>
+                </div>
+                <button>ADD TO CART</button>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <div class="discount-badge">15% OFF</div>
+                <img src="static/img3/v15.jpg" alt="Product 5">
+                <h3>Revital Capsule - Men 30's</h3>
+                <div class="tags">
+                    <span>Fitness</span>
+                    <span>Otc Deals</span>
+                </div>
+                <p class="market">Mkt: Sun Pharmaceutical Industries Ltd</p>
+                <div class="price">
+                    <span class="current-price">₹600.00</span>
+                    <span class="old-price">₹500.00</span>
+                </div>
+                <button>ADD TO CART</button>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <div class="product-section">
+        <div class="product-row">
+
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="discount-badge">31% OFF</div>
+                <img src="static/img3/v16.jpg" alt="Product 1">
+                <h3>Dr. Morepen Omega 3 Deep Sea Fish Oil</h3>
+                <div class="tags">
+                    <span>Fitness</span>
+                    <span>Supplements</span>
+                </div>
+                <p class="market"> Mkt: Dr Morepen Limited</p>
+                <div class="price">
+                    <span class="current-price">₹1099.49</span>
+                    <span class="old-price">₹714.48</span>
+                </div>
+                <button>ADD TO CART</button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="discount-badge">25% OFF</div>
+                <img src="static/img3/v17.jpg" alt="Product 2">
+                <h3>Wellbeing Nutrition Melts Restful Sleep- Drug-free</h3>
+                <div class="tags">
+                    <span>Fitness</span>
+                    <span>Supplements</span>
+                </div>
+                <p class="market"> Mkt: Nutritionalab Private Limited</p>
+                <div class="price">
+                    <span class="current-price">₹650.29</span>
+                    <span class="old-price">₹616.63</span>
+                </div>
+                <button>ADD TO CART</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="discount-badge">29% OFF</div>
+                <img src="static/img3/v18.jpg" alt="Product 3">
+                <h3>INLIFE Immunity Plus Capsules 60's</h3>
+                <div class="tags">
+                    <span>Fitness</span>
+                    <span>Family Nutrition</span>
+                </div>
+                <p class="market">Mkt: Inlife Pharma Pvt Ltd</p>
+                <div class="price">
+                    <span class="current-price">₹699.14</span>
+                    <span class="old-price">₹448.18</span>
+                </div>
+                <button>ADD TO CART</button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <div class="discount-badge">10% OFF</div>
+                <img src="static/img3/v19.jpg" alt="Product 4">
+                <h3>GNC Triple Strength Fish Oil 900mg Softgel 60's</h3>
+                <div class="tags">
+                    <span>Fitness</span>
+                    <span>Otc Deals</span>
+                </div>
+                <p class="market">Mkt: Guardian Healthcare Services Pvt Ltd</p>
+                <div class="price">
+                    <span class="current-price">₹1599.25</span>
+                    <span class="old-price">₹1324.12</span>
+                </div>
+                <button>ADD TO CART</button>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <div class="discount-badge">15% OFF</div>
+                <img src="static/img3/v20.jpg" alt="Product 5">
+                <h3>CollaFlex Pro Sachets 12.1 gm</h3>
+                <div class="tags">
+                    <span>Fitness</span>
+                    <span>Otc Deals</span>
+                </div>
+                <p class="market">Mkt: Universal Nutriscience Private Limited</p>
+                <div class="price">
+                    <span class="current-price">₹167.00</span>
+                    <span class="old-price">₹144.00</span>
+                </div>
+                <button>ADD TO CART</button>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <h2 style="padding-left: 20px;">Vitamin Supplements</h2>
+    <br>
+    <p style="padding-left: 20px; color: rgba(0, 0, 0, 0.753);">Vitamin supplements are dietary supplements that contain one or more vitamins. They are designed to provide additional nutritional support to individuals who may not be getting enough of these vitamins from their regular diet. While vitamins and supplements can be helpful in addressing nutrient deficiencies, they should not be used as a replacement for a healthy and balanced diet. Additionally, excessive consumption of certain vitamins can have negative health effects, so it's important to consult with a doctor before starting any supplement regimen.</p>
+    <br>
+    <br>
+    <h2 style="padding-left: 20px;">Types of Vitamin Supplements</h2>
+    <br>
+    <p style="padding-left: 20px; color: rgba(0, 0, 0, 0.753);">Vitamins are essential nutrients that our body needs in small amounts to function properly. While vitamins can be obtained from a healthy diet, some people may choose to take vitamin supplements to meet their daily requirements. Here are the types of vitamins & supplements:</p>
+    <br>
+    <p style="padding-left: 60px;"><b>. Multivitamins :</b> These supplements contain a combination of vitamins and minerals that are essential for overall health and well-being. They may come in various forms, including tablets, capsules, or gummies.</p>
+    <br>
+    <p style="padding-left: 60px;"><b>. Vitamin C :</b> This antioxidant vitamin is known for boosting the immune system and promoting healthy skin. It can be found in supplements in various forms such as tablets, capsules, and powders.</p>
+    <br>
+    <p style="padding-left: 60px;"><b>. Vitamin D :</b> This vitamin is important for bone health and immune system function. It is naturally synthesized by the body when exposed to sunlight, but supplements are also available in the form of tablets or capsules.</p>
+    <br>
+    <p style="padding-left: 60px;"><b>. Vitamin E :</b> This antioxidant vitamin is known for protecting the body from free radicals that can cause damage to cells. It is available in supplements in the form of tablets, capsules, or oils.</p>
+    <br>
+    <p style="padding-left: 60px;"><b>. Vitamin B complex :</b> This group of vitamins is important for energy production, nerve function, and maintaining healthy skin and hair. B-complex supplements typically contain a combination of B vitamins, including thiamine, riboflavin, niacin, vitamin B6, and vitamin B12.</p>
+    <br>
+    <p style="padding-left: 60px;"><b>. Vitamin A :</b> This vitamin is important for maintaining healthy eyesight and skin. It is found in supplements in the form of tablets, capsules, or oils.</p>
+    <br>
+    <p style="padding-left: 60px;"><b>. Vitamin K :</b> This vitamin is important for blood clotting and bone health. It is available in supplements in the form of tablets or capsules.</p>
+    <br>
+    <p style="padding-left: 20px; color: rgba(0, 0, 0, 0.753);">It's important to consult with a doctor before you buy vitamins and supplements to ensure that they are safe and appropriate for your individual needs.</p>
+    <br>
+    <br>
+    <h2 style="padding-left: 20px;">Advantages and disadvantages of consuming vitamins & supplements</h2>
+    <br>
+    <p style="padding-left: 20px; color: rgba(0, 0, 0, 0.753);">The following is a list of advantages:</p>
+    <br>
+    <p style="padding-left: 20px; color: rgba(0, 0, 0, 0.753);">Advantages:</p>
+    <br>
+    <P style="padding-left: 60px;">1. Can help address nutrient deficiencies in individuals who cannot get enough vitamins through their diet.</P>
+    <P style="padding-left: 60px;">2. May improve overall health and wellbeing.</P>
+    <P style="padding-left: 60px;">3. Some studies suggest that certain supplements may reduce the risk of chronic diseases.</P>
+    <br>
+    <p style="padding-left: 20px; color: rgba(0, 0, 0, 0.753);">Disadvantages:</p>
+    <br>
+    <P style="padding-left: 60px;">1. Overconsumption of certain vitamins may lead to toxicity and harm the body.</P>
+    <P style="padding-left: 60px;">2. Taking supplements may not be as effective as getting nutrients from whole foods.</P>
+    <P style="padding-left: 60px;">3. Supplements are not regulated in the same way as prescription medications, and some may contain harmful ingredients or not be accurately labelled.</P>
+    <br>
+    <br>
+    <h2 style="padding-left: 20px;">FAQs</h2>
+    <br>
+    <br>
+    <h2 style="padding-left: 20px;">What are the different vitamin supplements available?</h2>
+    <br>
+    <p style="padding-left: 20px; color: rgba(0, 0, 0, 0.753);">Vitamin supplements come in many forms, including tablets, capsules, gummies, and liquids. Some popular vitamins available as supplements include vitamin C, vitamin D, vitamin B12, vitamin E, and vitamin A. Other supplements may contain a combination of vitamins and minerals, such as multivitamins, prenatal vitamins, and immune support supplements. It is important to consult with a healthcare professional before taking any vitamin supplement.</p>
+    <br>
+    <br>
+    <h2 style="padding-left: 20px;">Will taking vitamin and mineral supplements help you feel more energised</h2>
+    <br>
+    <p style="padding-left: 20px; color: rgba(0, 0, 0, 0.753);">Taking vitamin and mineral supplements can help you feel more energized if you have a deficiency in any of the essential nutrients they provide. However, if you're already getting sufficient amounts of vitamins and minerals through a balanced diet, taking additional supplements may not necessarily provide any noticeable increase in energy. It's best to consult with a healthcare professional before taking any supplements to determine if they are necessary for your individual needs.</p>
+    <br>
+    <br>
+    <h2 style="padding-left: 20px;">Why are multivitamin tablets necessary for women?</h2>
+    <br>
+    <p style="padding-left: 20px; color: rgba(0, 0, 0, 0.753);">Multivitamin tablets may be necessary for women to supplement their diet with essential vitamins and minerals that they may not be getting enough of from their regular diet. As women age, their nutrient requirements may change, and they may have difficulty absorbing nutrients from food. Taking a multivitamin can help ensure they are getting enough of important nutrients like vitamin D, calcium, and B vitamins, which can support bone health, energy levels, and overall health. However, it's important to talk to a doctor or registered dietician before starting any new supplement regimen.</p>
+    <br>
+    <br>
+    <div class="top">
+        <a href="index.html" style="text-decoration: none;color: aliceblue;">Go to Home</a>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+            <h2>Rakshit Wellness</h2>
+            <p>Your Health, Our Priority</p>
+            </div>
+
+            <div class="footer-links">
+            <div>
+                <h3>Company</h3>
+                <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Support</h3>
+                <ul>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Follow Us</h3>
+                <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Rakshit Wellness. All rights reserved. Made by Soumyajit Ghosh</p>
+        </div>
+    </footer>
+
+</body>
+</html>
